@@ -1,0 +1,352 @@
+:root {
+  /* color #fff44336 - transparent color: #f44336 */
+  --color-outline-section: #f44336;
+  /* style: dashed / hidden */
+  --style-outline: hidden;
+  --color-text-primary: #2196f3;
+  --color-text-secondary: #757575;
+  --color-text-light: #fff;
+  --color-text-dark: #212121;
+
+  --bgcolor-primary: #2f303a;
+  --bgcolor-select: #2196f3;
+
+  --font-text-primary: 'Roboto', sans-serif;
+  --font-text-secondary: 'Raleway', sans-serif;
+}
+
+/*************************************
+ *         Reset 
+ */
+
+*,
+*::before,
+*::after {
+  /* modern-normalize set: box-sizing:  */
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+  outline: 2px var(--style-outline) var(--color-outline-section);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+body {
+  font-family: var(--font-text-primary);
+  /* font default
+* font-weight: 400;
+  font-size: 16px;*/
+  /* background-color: white; */
+  color: var(--color-text-dark);
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  outline: 2px var(--style-outline) #2ec27e;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.item-bar {
+  height: 80px;
+  justify-content: space-between;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  padding: 50px 0 0 0;
+  outline: 2px var(--style-outline) var(--color-outline-section);
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+}
+
+h3 {
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* general classes/auxiliary classes */
+/*************************************
+ *          header
+ */
+
+.nav-item {
+  margin: 0 auto;
+  gap: 93px;
+}
+
+.menu-item {
+  gap: 46px;
+}
+
+.contact {
+  margin-left: 325px;
+}
+
+.logo-fonts {
+  font-family: var(--font-text-secondary);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: var(--color-text-primary);
+}
+
+.studio-color {
+  color: #000;
+  display: inline-block;
+}
+
+.menu-item a,
+.contact a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.menu-item a {
+  color: var(--color-text-dark);
+}
+
+.menu-item a:hover,
+.flex.contact a:hover {
+  color: var(--color-text-primary);
+}
+
+.flex.contact a {
+  color: var(--color-text-secondary);
+}
+
+/* the rest of the classes in order from <header> to <footer> */
+/*************************************
+ *  main    
+ */
+
+.main-box {
+  padding: 200px 200px 200px 200px;
+  background: var(--bgcolor-primary);
+}
+
+/* btn - Zamów usługę    */
+.btn-order-svc {
+  background: #2196f3;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  display: block;
+  font-family: var(--font-text-primary);
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin: 30px auto 0px;
+  padding: 10px 41px;
+}
+
+/*************************************
+ *        Section - 0
+ */
+.No-1 {
+  padding-top: 0;
+}
+
+/*************************************
+ *      figure - caption  
+ */
+
+/* Images porfolio - flex */
+
+.card {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+}
+
+.card-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card-hdr {
+  font-weight: 500;
+  line-height: 1.1875;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-text {
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.card-1 {
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+}
+
+figure .card-1 {
+  display: block;
+}
+
+.card-1-desc {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+.card-1-hdr {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+}
+
+.card-1-text {
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.item-attr-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.item-attr-hdr {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428;
+  margin-bottom: 10px;
+}
+
+/*************************************
+ *  Page - portfolio
+ */
+
+.btn-nav {
+  gap: 8px;
+}
+
+/* portfolio btn - nawigacyjne */
+.btn-nav-font {
+  font-family: var(--font-text-primary);
+  font-size: 16px;
+  line-height: 1.625;
+  border: none;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.btn-nav-bg {
+  color: var(--color-text-dark);
+  background: #f5f4fa;
+}
+
+.btn-nav-bg:hover {
+  color: #fff;
+  background: var(--bgcolor-select);
+  /* shadow-middle */
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08),
+    0 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+/*************************************
+ *    foooter  
+ */
+
+.footer {
+  padding: 60px 0;
+  background: var(--bgcolor-primary);
+}
+
+.footer-address {
+  padding-top: 11px;
+}
+
+.studio-color-foo {
+  color: #fff;
+  display: inline-block;
+  margin-top: 14px;
+}
+
+.footer-font {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255);
+}
+
+.footer-font li {
+  margin-top: 9px;
+}
+
+.footer-font > li > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-font > li > a:hover {
+  text-decoration: none;
+  color: var(--color-text-primary);
+}
