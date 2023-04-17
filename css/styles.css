@@ -26,7 +26,7 @@
   /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
-  outline: 2px var(--style-outline) var(--color-outline-section);
+  /* outline: 2px var(--style-outline) var(--color-outline-section); */
 }
 
 ul {
@@ -46,7 +46,7 @@ body {
 * font-weight: 400;
   font-size: 16px;*/
   /* background-color: white; */
-  color: var(--color-text-dark);
+  /* color: var(--color-text-dark); */
 }
 
 .section {
@@ -107,6 +107,14 @@ h3 {
   text-transform: uppercase;
 }
 
+/* .svg { */
+/* fill: #fff; */
+/* } */
+
+/* svg.folder { */
+/* fill: #f7d674; */
+/* } */
+
 /* general classes/auxiliary classes */
 /*************************************
  *          header
@@ -156,8 +164,32 @@ h3 {
   color: var(--color-text-primary);
 }
 
+.contact li {
+  display: block;
+}
+
+.contact svg {
+  display: inline-block;
+}
+
 .flex.contact a {
   color: var(--color-text-secondary);
+}
+
+/* .flex.contact text:hover { */
+  /* fill: var(--color-text-primary); */
+/* } */
+
+/* .flex.contact text { */
+  /* fill: var(--color-text-secondary); */
+/* } */
+
+.icon {
+  fill: var(--color-text-secondary);
+}
+  
+.icon:hover {
+  fill: var(--color-text-primary);
 }
 
 /* the rest of the classes in order from <header> to <footer> */

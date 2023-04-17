@@ -15,13 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
 
@@ -40,23 +34,56 @@
               <a href="./portfolio.html" class="link">Portfolio</a>
             </li>
             <li>
-              <a href="Kontakt" class="link">Kontakt</a>
+              <a href="./kontakt.html" class="link">Kontakt</a>
             </li>
           </ul>
         </nav>
         <ul class="flex contact">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="icon">
+            <svg width="16" height="12">
+              <use href="images/icons.svg#icon-envelope"></use>
+            </svg>
+            <svg width="135" height="16">
+              <a href="mailto:info@devstudio.com">
+                <text x="0" y="15">info@devstudio.com</text>
+              </a>
+            </svg>
+
+            <!-- <a style="text-align: center; display:inline-block;" href="mailto:info@devstudio.com"> -->
+            <!-- <span> -->
+            <!-- <svg -->
+            <!-- class="icon" -->
+            <!-- xmlns="http://www.w3.org/2000/svg" -->
+            <!-- width="20" -->
+            <!-- height="18" -->
+            <!-- viewBox="0 0 16 12" -->
+            <!-- > -->
+            <!-- <use href="images/icons.svg#icon-envelope"></use> -->
+            <!-- </svg> -->
+            <!-- </span> -->
+            <!-- nfo@devstudio.com</a -->
+            <!-- > -->
           </li>
-          <li>
-            <a href="tel:+48 111 111 111">+48 111 111 111</a>
+          <li class="icon">
+            <svg width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            <svg width="110" height="16">
+              <a href="tel:+48 111 111 111">
+                <text x="0" y="15">+48 111 111 111</text>
+              </a>
+            </svg>
           </li>
         </ul>
       </div>
     </header>
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="42" viewBox="0 0 32 42"> -->
+    <!-- <use href="./images/envelope.svg"/></use> -->
+    <!-- </svg> -->
+    <!-- <img src="images/envelope.svg" alt="" width="42" height="32"> -->
 
     <!-- end header -->
-
+    <!-- xmlns="http://www.w3.org/2000/svg-->
     <!-- main -->
     <main>
       <section class="main-box">
@@ -134,7 +161,7 @@
       </section>
       <!-- end Section 1 - Czym się zajmujemy -->
 
-      <!-- Section 2 - Nasz zaspół -->
+      <!-- Section 2 - Nasz zespół -->
       <section class="section" style="background: #f5f4fa">
         <div class="container">
           <h2>Nasz zespół</h2>
@@ -192,7 +219,7 @@
         <a href="" class="logo-fonts"> Web<span class="studio-color-foo">Studio</span> </a>
         <address class="footer-address">
           <ul class="footer-font">
-            <li><span>m. Warszawa, Aleje Jerozolimskie 21</span></li>
+            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
             <li>
               <a href="mailto:info@example.com">info@example.com</a>
             </li>
