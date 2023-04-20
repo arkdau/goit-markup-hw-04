@@ -15,7 +15,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="./css/styles.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
 
@@ -40,14 +45,14 @@
         </nav>
         <ul class="flex contact">
           <li class="icon">
-            <svg width="16" height="12">
-              <use href="images/icons.svg#icon-envelope"></use>
-            </svg>
-            <svg width="135" height="16">
-              <a href="mailto:info@devstudio.com">
+            <a href="mailto:info@devstudio.com" class="contact-link">
+              <svg width="16" height="12" class="contact-icon">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              <svg width="135" height="16">
                 <text x="0" y="15">info@devstudio.com</text>
-              </a>
-            </svg>
+              </svg>
+            </a>
 
             <!-- <a style="text-align: center; display:inline-block;" href="mailto:info@devstudio.com"> -->
             <!-- <span> -->
@@ -65,14 +70,14 @@
             <!-- > -->
           </li>
           <li class="icon">
-            <svg width="10" height="16">
-              <use href="./images/icons.svg#icon-smartphone"></use>
-            </svg>
-            <svg width="110" height="16">
-              <a href="tel:+48 111 111 111">
+            <a href="tel:+48 111 111 111" class="contact-link">
+              <svg width="10" height="16" class="contact-icon">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              <svg width="110" height="16">
                 <text x="0" y="15">+48 111 111 111</text>
-              </a>
-            </svg>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
@@ -102,6 +107,11 @@
         <div class="container">
           <ul class="flex">
             <li>
+              <div class="card-icon">
+                <svg width="70" width="70">
+                  <use href="./images/icons.svg#icon-antenna-1"></use>
+                </svg>
+              </div>
               <h3 class="item-attr-hdr">LOREM IPSUM</h3>
               <p class="item-attr-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -109,6 +119,12 @@
               </p>
             </li>
             <li>
+              <div class="card-icon">
+                <svg width="70" width="70">
+                  <use href="./images/icons.svg#icon-clock-1"></use>
+                </svg>
+              </div>
+
               <h3 class="item-attr-hdr">LOREM IPSUM</h3>
               <p class="item-attr-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -116,6 +132,12 @@
               </p>
             </li>
             <li>
+              <div class="card-icon">
+                <svg width="70" width="70">
+                  <use href="./images/icons.svg#icon-diagram-1"></use>
+                </svg>
+              </div>
+
               <h3 class="item-attr-hdr">LOREM IPSUM</h3>
               <p class="item-attr-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -123,6 +145,12 @@
               </p>
             </li>
             <li>
+              <div class="card-icon">
+                <svg width="70" width="70">
+                  <use href="./images/icons.svg#icon-astronaut-1"></use>
+                </svg>
+              </div>
+
               <h3 class="item-attr-hdr">LOREM IPSUM</h3>
               <p class="item-attr-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -172,6 +200,42 @@
                 <figcaption class="card-desc">
                   <h3 class="card-hdr">John Doe</h3>
                   <p class="card-text">Product Designer</p>
+                  <!-- social link -->
+                  <ul class="link-list">
+                    <!-- instagram link -->
+                    <il class="link-list__item">
+                      <a href="https://www.instagram.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- twitter link -->
+                    <il class="link-list__item">
+                      <a href="https://twitter.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- facebook link -->
+                    <il class="link-list__item">
+                      <a href="https://www.facebook.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- linkedin link -->
+                    <il class="link-list__item">
+                      <a href="https://pl.linkedin.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </il>
+                  </ul>
+                  <!-- end social link -->
                 </figcaption>
               </figure>
             </li>
@@ -185,6 +249,42 @@
                 <figcaption class="card-desc">
                   <h3 class="card-hdr">John Doe</h3>
                   <p class="card-text">Frontend Developer</p>
+                  <!-- social link -->
+                  <ul class="link-list">
+                    <!-- instagram link -->
+                    <il class="link-list__item">
+                      <a href="https://www.instagram.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- twitter link -->
+                    <il class="link-list__item">
+                      <a href="https://twitter.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- facebook link -->
+                    <il class="link-list__item">
+                      <a href="https://www.facebook.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- linkedin link -->
+                    <il class="link-list__item">
+                      <a href="https://pl.linkedin.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </il>
+                  </ul>
+                  <!-- end social link -->
                 </figcaption>
               </figure>
             </li>
@@ -194,6 +294,42 @@
                 <figcaption class="card-desc">
                   <h3 class="card-hdr">John Doe</h3>
                   <p class="card-text">Marketing</p>
+                  <!-- social link -->
+                  <ul class="link-list">
+                    <!-- instagram link -->
+                    <il class="link-list__item">
+                      <a href="https://www.instagram.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- twitter link -->
+                    <il class="link-list__item">
+                      <a href="https://twitter.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- facebook link -->
+                    <il class="link-list__item">
+                      <a href="https://www.facebook.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- linkedin link -->
+                    <il class="link-list__item">
+                      <a href="https://pl.linkedin.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </il>
+                  </ul>
+                  <!-- end social link -->
                 </figcaption>
               </figure>
             </li>
@@ -203,6 +339,42 @@
                 <figcaption class="card-desc">
                   <h3 class="card-hdr">John Doe</h3>
                   <p class="card-text">UI Designer</p>
+                  <!-- social link -->
+                  <ul class="link-list">
+                    <!-- instagram link -->
+                    <il class="link-list__item">
+                      <a href="https://www.instagram.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- twitter link -->
+                    <il class="link-list__item">
+                      <a href="https://twitter.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- facebook link -->
+                    <il class="link-list__item">
+                      <a href="https://www.facebook.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </il>
+                    <!-- linkedin link -->
+                    <il class="link-list__item">
+                      <a href="https://pl.linkedin.com/" class="link-list__link">
+                        <svg width="44" height="44">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </il>
+                  </ul>
+                  <!-- end social link -->
                 </figcaption>
               </figure>
             </li>
@@ -212,11 +384,59 @@
       <!-- end Section 2 - Nasz zespół -->
     </main>
     <!-- end main -->
+    <!-- Nasi klienci -->
+    <section class="section">
+      <div class="container" >
+       <h2>Nasi klienci</h2> 
+      </div>
+    </section>
+
+    <!-- end Nasi klienci -->
 
     <!-- footer -->
     <footer class="footer">
       <div class="container">
         <a href="" class="logo-fonts"> Web<span class="studio-color-foo">Studio</span> </a>
+        <div class="fo-box-soc-link">
+          <h3>Dołącz do nas</h3>
+          <!-- social link -->
+          <ul id="fo-soc-link" class="link-list">
+            <!-- instagram link -->
+            <il class="link-list__item">
+              <a href="https://www.instagram.com/" class="link-list__link">
+                <svg width="44" height="44">
+                  <use href="./images/icons.svg#icon-soc_link_instagram"></use>
+                </svg>
+              </a>
+            </il>
+            <!-- twitter link -->
+            <il class="link-list__item">
+              <a href="https://twitter.com/" class="link-list__link">
+                <svg width="44" height="44">
+                  <use href="./images/icons.svg#icon-soc_link_twitter"></use>
+                </svg>
+              </a>
+            </il>
+            <!-- facebook link -->
+            <il class="link-list__item">
+              <a href="https://www.facebook.com/" class="link-list__link">
+                <svg width="44" height="44">
+                  <use href="./images/icons.svg#icon-soc_link_facebook"></use>
+                </svg>
+              </a>
+            </il>
+            <!-- linkedin link -->
+            <il class="link-list__item">
+              <a href="https://pl.linkedin.com/" class="link-list__link">
+                <svg width="44" height="44">
+                  <use href="./images/icons.svg#icon-soc_link_linkedin"></use>
+                </svg>
+              </a>
+            </il>
+          </ul>
+          <!-- end social link -->
+        </div>
+
         <address class="footer-address">
           <ul class="footer-font">
             <li>m. Warszawa, Aleje Jerozolimskie 21</li>
