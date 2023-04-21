@@ -223,34 +223,13 @@ h3 {
  *  main    
  */
 
-/* .main- box { */
-/* padding: 2px 2px 2px 2px; */
-/* background: var(--bgcolor-primary); */
-/* height: 600px; */
-/* width: 1600px; */
-/* min-height: 100px; */
-/* background-color: #2a2a2a; */
-/* background-image: "./../images/header.jpg"; */
-/* color: #fff; */
-/* text-align: center; */
-/* background-position: center; */
-/* } */
-
 .main-bg-image {
-  /* position: relative; */
-  /* width: 1600px; */
-  /* height:600px; */
   height: 600px;
   max-width: 1600px;
   margin: 0 auto;
-  /* background-color: #2a2a2a; */
-  /* background-color: #9e9e9e; */
-  /* background-image: url("https://image.ibb.co/mjdbZ5/bg5.jpg"); */
-  /* background-image: url('./../images/header.jpg'); */
-  /* background-image: radial-gradient(at center, var(--bgcolor-start) 10%, var(--bgcolor-end) 50%); */
-  /* background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.0)); */
-
-background-image: linear-gradient(rgba(2,155,193,0.3) 25%, rgba(255, 255, 255, 0.1)), url('./../images/header.jpg');
+  /* image with gradient layer */ 
+  background-image: linear-gradient(rgba(53, 35, 35, 0.3) 25%, rgba(2, 55, 93, 0.1)),
+    url('./../images/header.jpg');
 }
 
 /* btn - Zamów usługę    */
