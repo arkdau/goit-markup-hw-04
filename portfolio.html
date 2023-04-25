@@ -6,7 +6,7 @@
     <meta
       name="description"
       content="GoIT  Full Stack Developer  Repozytorium:
-        goit-markup-hw-02"
+        goit-markup-hw-04"
     />
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,9 +27,9 @@
   <!-- body -->
   <body>
     <!-- header  -->
-    <header class="page-header">
-      <div class="container flex item-bar">
-        <nav class="flex nav-item">
+    <header>
+      <div class="container flex">
+        <nav class="flex">
           <a href="" class="logo-fonts">Web<span class="studio-color">Studio</span></a>
           <ul class="flex menu-item">
             <li>
@@ -39,16 +39,30 @@
               <a href="./portfolio.html" class="link">Portfolio</a>
             </li>
             <li>
-              <a href="Kontakt" class="link">Kontakt</a>
+              <a href="./kontakt.html" class="link">Kontakt</a>
             </li>
           </ul>
         </nav>
         <ul class="flex contact">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="icon">
+            <a href="mailto:info@devstudio.com">
+              <svg width="16" height="12" class="contact-icon">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              <svg width="135" height="16">
+                <text x="0" y="15">info@devstudio.com</text>
+              </svg>
+            </a>
           </li>
-          <li>
-            <a href="tel:+48&nbsp111&nbsp111&nbsp111">+48 111 111 111</a>
+          <li class="icon">
+            <a href="tel:+48&nbsp111&nbsp111&nbsp111" class="contact-link">
+              <svg width="10" height="16" class="contact-icon">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              <svg width="110" height="16">
+                <text x="0" y="15">+48 111 111 111</text>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
