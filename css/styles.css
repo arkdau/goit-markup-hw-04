@@ -92,12 +92,12 @@ h2 {
 }
 
 h3 {
-/* font-weight: 500; */
- font-family: var(--font-text-medium); 
-font-size: 1em;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
+  /* font-weight: 500; */
+  font-family: var(--font-text-medium);
+  font-size: 1em;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* general classes/auxiliary classes */
@@ -116,16 +116,11 @@ header {
 /* } */
 
 nav.flex {
-  gap:94px;
+  gap: 94px;
 }
-
 
 .menu-item {
   gap: 46px;
-}
-
-.contact {
-  margin-left: 325px;
 }
 
 .logo-fonts {
@@ -142,8 +137,7 @@ nav.flex {
   /* display: inline-block; */
 }
 
-.menu-item a,
-.contact a {
+.menu-item a {
   font-weight: 500;
   font-size: 0.875em;
   line-height: 1.14;
@@ -154,36 +148,47 @@ nav.flex {
   color: var(--color-text-dark);
 }
 
-/* .flex.contact a:hover, */
 .menu-item a:hover {
   color: var(--color-text-primary);
 }
 
-.contact li {
-  display: inline-block;
+.contact-icon-envelope {
+  margin: 0px 10px 0 0;
+  vertical-align: baseline;
 }
 
-/* .contact-link { */
-/* align-items: center; */
+.contact-icon-smartphone {
+  margin: 0px 10px 0 0;
+  vertical-align: sub;
+}
+
+/* .icon { */
+/* fill: var(--color-text-secondary); */
+/* } */
+
+/* .icon:hover { */
+/* --color-icon-select: var(--color-text-primary); */
+/* fill: var(--color-text-primary); */
+/* } */
+
+/* .contact-list { */
 /* display: flex; */
-/* flex-direction: row; */
+/* align-items: center; */
 /* } */
 
-.contact-icon {
-  margin: 4px 10px 0 0;
-}
-
-/* .flex.contact a { */
-/*! color: var(--color-text-secondary); */
+/* .contact-item { */
+/* fill: var(--color-text-secondary); */
+/* color: var(--color-text-secondary); */
 /* } */
 
-.icon {
-  fill: var(--color-text-secondary);
+.contact-link {
+  text-decoration: none;
+  color: var(--color-text-secondary);
 }
 
-.icon:hover {
+.contact-link:hover {
   --color-icon-select: var(--color-text-primary);
-  fill: var(--color-text-primary);
+  color: var(--color-text-primary);
 }
 
 /* the rest of the classes in order from <header> to <footer> */
@@ -218,6 +223,7 @@ nav.flex {
   color: #ffffff;
   margin: 30px auto 0px;
   padding: 10px 41px;
+  font-size: 1em;
 }
 
 /*************************************
@@ -286,8 +292,8 @@ nav.flex {
   font-size: 1em;
   margin: 0 99px 10px;
   text-align: center;
-line-height: 1.1875;
-letter-spacing: 0.03em;
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
 }
 
 .card-text {
