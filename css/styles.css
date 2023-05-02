@@ -154,7 +154,7 @@ nav.flex {
 
 .contact-icon-envelope {
   margin: 0px 10px 0 0;
-  vertical-align: baseline;
+  vertical-align: middle;
 }
 
 .contact-icon-smartphone {
@@ -217,6 +217,7 @@ nav.flex {
   border: none;
   display: block;
   font-family: var(--font-text-primary);
+  font-style: italic;
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
@@ -310,7 +311,7 @@ nav.flex {
 .link-list {
   list-style-type: none;
   margin: 0;
-  padding: 16px 32px 25px 32px;
+  /*! padding: 16px 32px 25px 32px; */
 }
 
 .link-list__item {
@@ -337,7 +338,7 @@ nav.flex {
   box-sizing: border-box;
   width: 170px;
   padding: 16px 0 12px;
-  margin: 0 30px 0 0;
+  /*! margin: 0 30px 0 0; */
   border: 1px solid #afb1b8;
   border-radius: 4px;
   display: inline-block;
@@ -347,9 +348,8 @@ nav.flex {
   border-color: #2196f3;
 }
 
-#clients ul {
-  padding-left: 0;
-  padding-right: 0;
+#clients.flex {
+  gap: 30px;
 }
 
 .card-1 {
@@ -430,12 +430,12 @@ figure .card-1 {
  */
 
 .footer {
-  padding: 0 0 60px;
+  padding: 60px 0 60px;
   background: var(--bgcolor-primary);
 }
 
 .footer-address {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .studio-color-foo {
@@ -467,6 +467,7 @@ figure .card-1 {
 .footer-font > li > a:hover {
   text-decoration: none;
   color: var(--color-text-primary);
+  padding-bottom: 9px;
 }
 
 .fo-box-soc-link {
@@ -491,3 +492,23 @@ figure .card-1 {
   display: inline-block;
   text-transform: uppercase;
 }
+
+.footer-social h3 {
+  color: var(--color-text-light);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 1em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 1em;
+  padding-bottom: 0.625em;
+  text-align: left;
+}
+
+.footer .flex {
+  gap: 70px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
