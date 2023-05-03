@@ -39,35 +39,34 @@
               <a href="./portfolio.html" class="link">Portfolio</a>
             </li>
             <li>
-              <a href="./kontakt.html" class="link">Kontakt</a>
+              <a href="#" class="link">Kontakt</a>
             </li>
           </ul>
         </nav>
         <ul class="flex">
-          <li class="icon">
-            <a href="mailto:info@devstudio.com">
-              <svg width="16" height="12" class="contact-icon">
-                <use href="./images/icons.svg#icon-envelope"></use>
-              </svg>
-              <svg width="135" height="16">
-                <text x="0" y="15">info@devstudio.com</text>
-              </svg>
+          <li>
+            <a href="mailto:info@devstudio.com" class="contact-link">
+              <svg width="16" height="12" class="contact-icon-envelope">
+                <use href="./images/icons.svg#icon-envelope"></use></svg
+              ><span>info@devstudio.com</span>
+              <!-- <svg width="135" height="16"> -->
+              <!-- <text x="0" y="15">info@devstudio.com</text> -->
+              <!-- </svg> -->
             </a>
           </li>
-          <li class="icon">
+          <li>
             <a href="tel:+48&nbsp111&nbsp111&nbsp111" class="contact-link">
-              <svg width="10" height="16" class="contact-icon">
-                <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg>
-              <svg width="110" height="16">
-                <text x="0" y="15">+48 111 111 111</text>
-              </svg>
+              <svg width="10" height="16" class="contact-icon-smartphone">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              ><span>+48 111 111 111</span>
+              <!-- <svg width="110" height="16"> -->
+              <!-- <text x="0" y="15">+48 111 111 111</text> -->
+              <!-- </svg> -->
             </a>
           </li>
         </ul>
       </div>
     </header>
-
     <!-- end header -->
 
     <!-- Section 3 - portfolio -->
@@ -210,15 +209,33 @@
 
     <!-- footer -->
     <footer class="footer">
-      <div class="container">
-        <a href="" class="logo-fonts"> Web<span class="studio-color-foo">Studio</span> </a>
-        <div class="fo-box-soc-link">
+      <div class="container flex">
+        <div>
+          <a href="" class="logo-fonts"> Web<span class="studio-color-foo">Studio</span> </a>
+          <address class="footer-address">
+            <ul class="footer-font">
+              <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li>
+                <a href="mailto:info@example.com">info@example.com</a>
+              </li>
+              <li>
+                <a href="tel:+48&nbsp111&nbsp111&nbsp111">+48 111 111 111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social">
           <h3>Dołącz do nas</h3>
           <!-- social link -->
           <ul id="fo-soc-link" class="link-list">
             <!-- instagram link -->
             <li class="link-list__item">
-              <a href="https://www.instagram.com/" class="link-list__link">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-list__link"
+              >
                 <svg width="44" height="44">
                   <use href="./images/icons.svg#icon-soc_link_instagram"></use>
                 </svg>
@@ -226,7 +243,12 @@
             </li>
             <!-- twitter link -->
             <li class="link-list__item">
-              <a href="https://twitter.com/" class="link-list__link">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-list__link"
+              >
                 <svg width="44" height="44">
                   <use href="./images/icons.svg#icon-soc_link_twitter"></use>
                 </svg>
@@ -234,7 +256,12 @@
             </li>
             <!-- facebook link -->
             <li class="link-list__item">
-              <a href="https://www.facebook.com/" class="link-list__link">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-list__link"
+              >
                 <svg width="44" height="44">
                   <use href="./images/icons.svg#icon-soc_link_facebook"></use>
                 </svg>
@@ -242,7 +269,12 @@
             </li>
             <!-- linkedin link -->
             <li class="link-list__item">
-              <a href="https://pl.linkedin.com/" class="link-list__link">
+              <a
+                href="https://pl.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-list__link"
+              >
                 <svg width="44" height="44">
                   <use href="./images/icons.svg#icon-soc_link_linkedin"></use>
                 </svg>
@@ -251,18 +283,6 @@
           </ul>
           <!-- end social link -->
         </div>
-
-        <address class="footer-address">
-          <ul class="footer-font">
-            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li>
-              <a href="mailto:info@example.com">info@example.com</a>
-            </li>
-            <li>
-              <a href="tel:+48&nbsp111&nbsp111&nbsp111">+48 111 111 111</a>
-            </li>
-          </ul>
-        </address>
       </div>
     </footer>
     <!-- end footer -->
