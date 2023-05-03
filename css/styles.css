@@ -53,7 +53,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  outline: 2px var(--style-outline) #2ec27e;
+  /* outline: 2px var(--style-outline) #2ec27e; */
 }
 
 .flex {
@@ -107,7 +107,7 @@ h3 {
 
 header {
   padding: 30px 0;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 /* .nav-item { */
@@ -183,7 +183,7 @@ nav.flex {
 /* } */
 
 .contact-link {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--color-text-secondary);
 }
 
@@ -310,9 +310,9 @@ nav.flex {
 }
 
 .link-list {
-  list-style-type: none;
+  /* list-style-type: none; */
   margin: 0;
-  /*! padding: 16px 32px 25px 32px; */
+  padding: 16px 32px 25px 32px;
 }
 
 .link-list__item {
@@ -326,7 +326,7 @@ nav.flex {
   display: flex;
   flex-direction: column;
   padding: 0px;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 /* .link-list__link:focus, */
@@ -457,30 +457,34 @@ figure .card-1 {
 }
 
 .footer-font li {
-  margin-top: 0;
+  /* margin-top: 0; */
+  padding-bottom: 9px;
+  /* display: inline-block; */
 }
 
 .footer-font > li > a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 9px;
+  /* padding-bottom: 9px; */
+  /* display: inline-block; */
 }
 
 .footer-font > li > a:hover {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--color-text-primary);
-  padding-bottom: 9px;
+  /* padding-bottom: 9px; */
+  /* display: inline-block; */
 }
 
-.fo-box-soc-link {
-  position: relative;
-  display: inline-block;
-  outline: yellow;
-  left: 160px;
-  top: 60px;
-  color: var(--color-text-light);
-  font-style: normal;
-}
+/* .fo-box-soc-link { */
+  /* position: relative; */
+  /* display: inline-block; */
+  /* outline: yellow; */
+  /* left: 160px; */
+  /* top: 60px; */
+  /* color: var(--color-text-light); */
+  /* font-style: normal; */
+/* } */
 
 #fo-soc-link {
   padding: 12px 0 0;
@@ -490,10 +494,10 @@ figure .card-1 {
   padding: 0 5px;
 }
 
-.fo-box-soc-link > h3 {
-  display: inline-block;
-  text-transform: uppercase;
-}
+/* .fo-box-soc-link > h3 { */
+  /* display: inline-block; */
+  /* text-transform: uppercase; */
+/* } */
 
 .footer-social h3 {
   color: var(--color-text-light);
